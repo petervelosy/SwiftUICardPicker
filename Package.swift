@@ -5,7 +5,7 @@ import PackageDescription
 // TODO: Check OS versions
 let package = Package(
     name: "SwiftUICardPicker",
-    platforms: [.iOS(.v18), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v6)],
+    platforms: [.iOS(.v18), .macOS(.v15), .tvOS(.v13), .watchOS(.v6)],
     products: [
         .library(
             name: "SwiftUICardPicker",
